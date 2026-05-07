@@ -146,9 +146,9 @@ export default function App() {
               className="flex justify-end w-full"
               layout
             >
-              <div className="bg-[#07388a] drop-shadow-[0px_0px_0.587px_rgba(0,0,0,0.24),0px_2.348px_2.348px_rgba(0,0,0,0.16),0px_-1.174px_0.587px_rgba(0,0,0,0.08)] px-[23.483px] py-[14.09px] rounded-bl-[28.18px] rounded-br-[28.18px] rounded-tl-[28.18px] max-w-[85%]">
-                <p className="font-['Inter:Regular',sans-serif] font-normal leading-[24.626px] text-[18.47px] text-right text-white">
-                  Create an audience with dormant player
+              <div className="bg-[#07388a] drop-shadow-[0px_0px_0.587px_rgba(0,0,0,0.24),0px_2.348px_2.348px_rgba(0,0,0,0.16),0px_-1.174px_0.587px_rgba(0,0,0,0.08)] px-[23.483px] py-[14.09px] rounded-bl-[28.18px] rounded-br-[28.18px] rounded-tl-[28.18px] w-fit">
+                <p className="font-['Inter:Regular',sans-serif] font-normal leading-[24.626px] text-[18.47px] text-right text-white whitespace-nowrap">
+                  <TypedText text="Create an audience with dormant player" />
                 </p>
               </div>
             </motion.div>
